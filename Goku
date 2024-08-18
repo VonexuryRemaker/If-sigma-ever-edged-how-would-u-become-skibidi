@@ -1,0 +1,126 @@
+local p = game.Players.LocalPlayer
+local Humanoid = p.Character:WaitForChild("Humanoid")
+ 
+local AnimAnim = Instance.new("Animation")
+AnimAnim.AnimationId = "rbxassetid://16944345619"
+local Anim = Humanoid:LoadAnimation(AnimAnim)
+AnimAnim.AnimationId = "rbxassetid://0" -- Reset animation ID
+Anim:Play()
+
+
+wait(0.3)
+
+
+local boom1 = game.ReplicatedStorage.Resources.KJEffects["LegSweepHit"].Hit:Clone()
+boom1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(boom1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(5) -- Emit 20 particles
+        end
+    end
+local boom1 = game.ReplicatedStorage.Resources.KJEffects["LegSweepHit"].Hit:Clone()
+boom1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(boom1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(5) -- Emit 20 particles
+        end
+    end
+local boom1 = game.ReplicatedStorage.Resources.KJEffects["LegSweepHit"].Hit:Clone()
+boom1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(boom1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(5) -- Emit 20 particles
+        end
+    end
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["lastkick"].Attachment:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["lastkick"].Attachment:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["lastkick"].Attachment:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+
+
+wait(0.2)
+
+
+local p = game.Players.LocalPlayer
+local Humanoid = p.Character:WaitForChild("Humanoid")
+ 
+local AnimAnim = Instance.new("Animation")
+AnimAnim.AnimationId = "rbxassetid://16944345619"
+local Anim = Humanoid:LoadAnimation(AnimAnim)
+AnimAnim.AnimationId = "rbxassetid://0" -- Reset animation ID
+Anim:Play()
+
+
+wait(0.2)
+
+local boom1 = game.ReplicatedStorage.Resources.KJEffects["LegSweepHit"].Hit:Clone()
+boom1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(boom1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(8) -- Emit 20 particles
+        end
+    end
+local boom1 = game.ReplicatedStorage.Resources.KJEffects["LegSweepHit"].Hit:Clone()
+boom1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(boom1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(5) -- Emit 20 particles
+        end
+    end
+local boom1 = game.ReplicatedStorage.Resources.KJEffects["LegSweepHit"].Hit:Clone()
+boom1.Parent = game.Players.LocalPlayer.Character["Torso"]
+    for _, child in ipairs(boom1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(5) -- Emit 20 particles
+        end
+    end
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["lastkick"].Attachment:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["lastkick"].Attachment:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+
+local hit1 = game.ReplicatedStorage.Resources.KJEffects["lastkick"].Attachment:Clone()
+hit1.Parent = game.Players.LocalPlayer.Character["HumanoidRootPart"]
+    for _, child in ipairs(hit1:GetChildren()) do
+        if child:IsA("ParticleEmitter") then -- Check if the child is a ParticleEmitter
+            child:Emit(1) -- Emit 20 particles
+        end
+    end
+
+local player = game.Workspace.Live["Weakest Dummy"]
+repeat wait() until player.Humanoid
+local dummyhumanoid = game.Workspace.Live["Weakest Dummy"]["Humanoid"]
+
+local anim2 = Instance.new("Animation")
+anim2.AnimationId = "rbxassetid://10471478869"
+
+local playAnim2 = dummyhumanoid:LoadAnimation(anim2)
+playAnim2:Play()lay()
